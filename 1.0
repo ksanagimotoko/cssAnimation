@@ -15,10 +15,15 @@
             background-color: red;
             height: 50%;
             width: 50%;
+            /* transition animation */
+            /* transition: transform 1s; */
+            /* transition: 1s */
         }
 
         .parent:hover .child{
+            background-color: green;
             transform: translateX(100%);
+        
         }
     </style>
 </head>
